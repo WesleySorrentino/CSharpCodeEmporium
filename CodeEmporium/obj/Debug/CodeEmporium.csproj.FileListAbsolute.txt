@@ -1,0 +1,7 @@
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\bin\Debug\CodeEmporium.exe.config
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\bin\Debug\CodeEmporium.exe
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\bin\Debug\CodeEmporium.pdb
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\obj\Debug\CodeEmporium.csprojAssemblyReference.cache
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\obj\Debug\CodeEmporium.csproj.CoreCompileInputs.cache
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\obj\Debug\CodeEmporium.exe
+C:\Users\Wesley\source\repos\CodeEmporium\CodeEmporium\obj\Debug\CodeEmporium.pdb
