@@ -57,27 +57,27 @@ namespace CodeEmporium
         {
             if ((input == "Rock" && cpuMove == "Scissors") || (input == "Rock" && cpuMove == "Lizard"))
             {
-                Console.WriteLine($"You won! Cpu choose {cpuMove}!");
+                Console.WriteLine($"You won! Cpu chose {cpuMove}!");
                 return true;
             }
             else if ((input == "Scissors" && cpuMove == "Paper") || (input == "Scissors" && cpuMove == "Lizard"))
             {
-                Console.WriteLine($"You won! Cpu choose {cpuMove}!");
+                Console.WriteLine($"You won! Cpu chose {cpuMove}!");
                 return true;
             }
             else if ((input == "Paper" && cpuMove == "Rock") || (input == "Paper" && cpuMove == "Spock"))
             {
-                Console.WriteLine($"You won! Cpu choose {cpuMove}!");
+                Console.WriteLine($"You won! Cpu chose {cpuMove}!");
                 return true;
             }
             else if ((input == "Lizard" && cpuMove == "Paper") || (input == "Lizard" && cpuMove == "Spock"))
             {
-                Console.WriteLine($"You won! Cpu choose {cpuMove}!");
+                Console.WriteLine($"You won! Cpu chose {cpuMove}!");
                 return true;
             }
             else if ((input == "Spock" && cpuMove == "Rock") || (input == "Spock" && cpuMove == "Scissors"))
             {
-                Console.WriteLine($"You won! Cpu choose {cpuMove}!");
+                Console.WriteLine($"You won! Cpu chose {cpuMove}!");
                 return true;
             }
             else if (input == cpuMove)
@@ -87,7 +87,7 @@ namespace CodeEmporium
             }
             else
             {
-                Console.WriteLine($"You loose! Cpu choose {cpuMove}");
+                Console.WriteLine($"You loose! Cpu chose {cpuMove}");
                 return false;
             }
         }
