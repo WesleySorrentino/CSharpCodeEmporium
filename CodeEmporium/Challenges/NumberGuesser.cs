@@ -18,6 +18,7 @@ namespace CodeEmporium
         }
         public static void Game(string userName)
         {
+            //Starts game
             bool gameOn = true;
             int guesses = 0;
             int number = RandomNumber(1, 100);
@@ -40,6 +41,7 @@ namespace CodeEmporium
         }
         private static int Input()
         {
+            //Ask's user for input
             Console.Write("Enter a number: ");
             int guess = Convert.ToInt32(Console.ReadLine());
 
@@ -47,6 +49,7 @@ namespace CodeEmporium
         }
         private static int RandomNumber(int lowNum, int highNum)
         {
+            //Generates a random number then returns it
             var random = new Random();
             var number = random.Next(lowNum, highNum);
 
@@ -54,6 +57,7 @@ namespace CodeEmporium
         }
         private static bool CheckWin(int input, int number)
         {
+            //Checks to see if user is higher or lower to the generated number
             if (input == number)
                 return true;
             else if (input > number)

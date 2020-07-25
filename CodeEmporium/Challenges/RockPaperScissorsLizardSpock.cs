@@ -17,7 +17,7 @@ namespace CodeEmporium
         {
             bool gameOn = true;
             Console.WriteLine($"Hello {userName}, Welcome to Rock, Paper, Scissors, Lizard, Spock!");
-
+            //Starts game
             while (gameOn)
             {
                 if (CheckWin(Input(), cpuMove()))
@@ -30,6 +30,7 @@ namespace CodeEmporium
         }
         private static string Input()
         {
+            //Ask's user for input
             Console.Write("Rock | Paper | Scissors | Lizard | Spock: ");
             string input = Console.ReadLine();
 
@@ -37,6 +38,7 @@ namespace CodeEmporium
         }
         private static string cpuMove()
         {
+            //Generates cpu's move and returns it
             var cpuMoves = new Random();
 
             string[] moves =
@@ -55,6 +57,7 @@ namespace CodeEmporium
         }
         private static bool CheckWin(string input, string cpuMove)
         {
+            //Checks if User or Cpu wins
             if ((input == "Rock" && cpuMove == "Scissors") || (input == "Rock" && cpuMove == "Lizard"))
             {
                 Console.WriteLine($"You won! Cpu chose {cpuMove}!");

@@ -22,6 +22,7 @@ namespace CodeEmporium
         }
         private static DateTime Input()
         {
+            //Ask's user for birthdate
             Console.Write("Enter your date of birth seperated by '/': ");
             var birthdate = Convert.ToDateTime(Console.ReadLine());
 
@@ -29,7 +30,7 @@ namespace CodeEmporium
         }
         private static void Calculation(DateTime birthDate)
         {
-
+            //Calculates age
             var today = DateTime.Now;
 
             var calculation = today - birthDate;

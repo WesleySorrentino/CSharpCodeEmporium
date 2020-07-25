@@ -14,6 +14,7 @@ namespace CodeEmporium
         }
         public static void Challenge(string userName)
         {
+            //Ask's user to enter their heads and tails arguement
             Console.WriteLine($"Welcome to the Coin flip program {userName}!");
             Console.Write("Enter your heads arguement: ");
             string heads = Console.ReadLine();
@@ -24,6 +25,7 @@ namespace CodeEmporium
         }
         private static string CoinFlip()
         {
+            //Flips coin and returns what the result is
             var random = new Random();
             string[] coinSides = { "Heads", "Tails" };
 
@@ -34,6 +36,7 @@ namespace CodeEmporium
         }
         private static void DisplayResult(string headsArg, string tailsArg, string result)
         {
+            //Display's the result
             switch (result)
             {
                 case "Heads":
